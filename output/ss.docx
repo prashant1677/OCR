@@ -1,0 +1,24 @@
+Angular Forms - what is it all about?
+
+A large category of frontend applications are very form-intensive, especially in
+the case of enterprise development. Many of these applications are basically
+just huge forms, spanning multiple tabs and dialogs and with non-trivial
+validation business logic.
+
+Every form-intensive application has to provide answers for the following
+problems:
+
+« howto keep track of the global form state
+« know which parts of the form are valid and which are still invalid
+
+* properly displaying error messages to the user so that the users know
+what to do to fix the wrong form values
+
+All of these are non-trivial tasks that are similar across applications, and as
+such could benefit from a framework.
+
+The Angular framework provides us a couple of alternative strategies for
+handling forms: Let's start with the option that is the closest to AngularJs.
+
+Note: AngularJs is a completely different framework than Angular, its his
+
